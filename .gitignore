@@ -1,0 +1,40 @@
+# ───── Resultats de scans : NE JAMAIS publier (donnees de cibles reelles) ─────
+*_2026-*/
+*_2027-*/
+scan_*/
+mobile-scans/
+mobile-corpus/
+rapport.*
+*.sarif
+nse_*.xml
+sv_*.xml
+events.jsonl
+scan.log
+subdomains_raw.txt
+endpoints.txt
+hosts.txt
+ports.json
+httpx.json
+nuclei*.jsonl
+nuclei_targets.txt
+nuclei_markdown/
+
+# ───── Secrets / etat local ─────
+.zunabo/
+auth.json
+.env
+*.key
+*.pem
+
+# ───── Python ─────
+__pycache__/
+*.pyc
+*.pyo
+
+# ───── Archives / build ─────
+*.tar.gz
+*.zip
+
+# ───── OS ─────
+.DS_Store
+Thumbs.db
